@@ -36,4 +36,6 @@ chmod u+x ./install_scripts/*
 
 #./install_scripts/phpstorm.sh
 
+#./install_scripts/sublime.sh
 
+#./install_scripts/docker.sh
