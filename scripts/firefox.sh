@@ -7,12 +7,12 @@
 #Firefox addons
 
 #vimfx
-#wget https://addons.mozilla.org/firefox/downloads/latest/vimfx/addon-404785-latest.xpi
-#firefox addon-404785-latest.xpi
+wget https://addons.mozilla.org/firefox/downloads/latest/vimfx/addon-404785-latest.xpi
+firefox addon-404785-latest.xpi
 
 #ublock origin
-#wget https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/addon-607454-latest.xpi
-#firefox addon-607454-latest.xpi
+wget https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/addon-607454-latest.xpi
+firefox addon-607454-latest.xpi
 
 #flashgot
 wget https://addons.mozilla.org/firefox/downloads/latest/flashgot/addon-220-latest.xpi

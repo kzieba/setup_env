@@ -1,41 +1,41 @@
 #!/usr/bin/env bash
 
-chmod u+x ./install_scripts/*
+chmod u+x ./scripts/*
 
-#./install_scripts/firefox.sh
+#./scripts/firefox.sh
 
-#./install_scripts/vim.sh
+#./scripts/vim.sh
 
-#./install_scripts/lamp.sh
+#./scripts/lamp.sh
 
-#./install_scripts/composer.sh
+#./scripts/composer.sh
 
-#./install_scripts/git.sh
+#./scripts/git.sh
 
-#./install_scripts/tmux.sh
+#./scripts/tmux.sh
 
-#./install_scripts/sqlite.sh
+#./scripts/sqlite.sh
 
-#./install_scripts/ubuntu.sh
+#./scripts/ubuntu.sh
 
-#./install_scripts/vlc.sh
+#./scripts/vlc.sh
 
-#./install_scripts/cmus.sh
+#./scripts/cmus.sh
 
-#./install_scripts/deadbeef.sh
+#./scripts/deadbeef.sh
 
-#./install_scripts/chrome.sh
+#./scripts/chrome.sh
 
-#./install_scripts/mc.sh
+#./scripts/mc.sh
 
-#./install_scripts/lynx.sh
+#./scripts/lynx.sh
 
-#./install_scripts/nodejs.sh
+#./scripts/nodejs.sh
 
-#./install_scripts/npm.sh
+#./scripts/npm.sh
 
-#./install_scripts/phpstorm.sh
+#./scripts/phpstorm.sh
 
-#./install_scripts/sublime.sh
+#./scripts/sublime.sh
 
-#./install_scripts/docker.sh
+#./scripts/docker.sh

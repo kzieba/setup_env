@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
-sudo apt-get install git-all
-sudo dpkg -r runit
+sudo apt-get install git
+#sudo apt-get install git-all
+#sudo dpkg -r runit
 
 #git config user.email "you@example.com"
 #git config "Your Name"
