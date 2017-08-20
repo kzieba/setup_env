@@ -2,40 +2,45 @@
 
 chmod u+x ./scripts/*
 
-#./scripts/firefox.sh
+#bash "`dirname $0`/scripts/firefox.sh"
 
-#./scripts/vim.sh
+#bash "`dirname $0`/scripts/vim.sh"
 
-#./scripts/lamp.sh
+#bash "`dirname $0`/scripts/lamp.sh"
 
-#./scripts/composer.sh
+#bash "`dirname $0`/scripts/composer.sh"
 
-#./scripts/git.sh
+#bash "`dirname $0`/scripts/git.sh"
 
-#./scripts/tmux.sh
+#bash "`dirname $0`/scripts/tmux.sh"
 
-#./scripts/sqlite.sh
+#bash "`dirname $0`/scripts/sqlite.sh"
 
-#./scripts/ubuntu.sh
+#bash "`dirname $0`/scripts/ubuntu.sh"
 
-#./scripts/vlc.sh
+#bash "`dirname $0`/scripts/vlc.sh"
 
-#./scripts/cmus.sh
+#bash "`dirname $0`/scripts/cmus.sh"
 
-#./scripts/deadbeef.sh
+#bash "`dirname $0`/scripts/deadbeef.sh"
 
-#./scripts/chrome.sh
+#bash "`dirname $0`/scripts/chrome.sh"
 
-#./scripts/mc.sh
+#bash "`dirname $0`/scripts/mc.sh"
 
-#./scripts/lynx.sh
+#bash "`dirname $0`/scripts/lynx.sh"
 
-#./scripts/nodejs.sh
+#bash "`dirname $0`/scripts/nodejs.sh"
 
-#./scripts/npm.sh
+#bash "`dirname $0`/scripts/npm.sh"
 
-#./scripts/phpstorm.sh
+#bash "`dirname $0`/scripts/phpstorm.sh"
 
-#./scripts/sublime.sh
+#bash "`dirname $0`/scripts/sublime.sh"
 
-#./scripts/docker.sh
+#bash "`dirname $0`/scripts/docker.sh"
+
+#bash "`dirname $0`/scripts/wallpaper.sh"
+
+#bash "`dirname $0`/scripts/fortuneCow.sh"
+
