@@ -39,3 +39,6 @@ chmod u+x ./install_scripts/*
 #./install_scripts/sublime.sh
 
 #./install_scripts/docker.sh
+
+./install_scripts/timeshift.sh
+
