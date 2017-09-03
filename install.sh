@@ -1,42 +1,48 @@
 #!/usr/bin/env bash
 
-chmod u+x ./install_scripts/*
+chmod u+x ./scripts/*
 
-#./install_scripts/firefox.sh
+#bash "`dirname $0`/scripts/firefox.sh"
 
-#./install_scripts/vim.sh
+#bash "`dirname $0`/scripts/vim.sh"
 
-#./install_scripts/lamp.sh
+#bash "`dirname $0`/scripts/lamp.sh"
 
-#./install_scripts/composer.sh
+#bash "`dirname $0`/scripts/composer.sh"
 
-#./install_scripts/git.sh
+#bash "`dirname $0`/scripts/git.sh"
 
-#./install_scripts/tmux.sh
+#bash "`dirname $0`/scripts/tmux.sh"
 
-#./install_scripts/sqlite.sh
+#bash "`dirname $0`/scripts/sqlite.sh"
 
-#./install_scripts/ubuntu.sh
+#bash "`dirname $0`/scripts/ubuntu.sh"
 
-#./install_scripts/vlc.sh
+#bash "`dirname $0`/scripts/vlc.sh"
 
-#./install_scripts/cmus.sh
+#bash "`dirname $0`/scripts/cmus.sh"
 
-#./install_scripts/deadbeef.sh
+#bash "`dirname $0`/scripts/deadbeef.sh"
 
-#./install_scripts/chrome.sh
+#bash "`dirname $0`/scripts/chrome.sh"
 
-#./install_scripts/mc.sh
+#bash "`dirname $0`/scripts/mc.sh"
 
-#./install_scripts/lynx.sh
+#bash "`dirname $0`/scripts/lynx.sh"
 
-#./install_scripts/nodejs.sh
+#bash "`dirname $0`/scripts/nodejs.sh"
 
-#./install_scripts/npm.sh
+#bash "`dirname $0`/scripts/npm.sh"
 
-#./install_scripts/phpstorm.sh
+#bash "`dirname $0`/scripts/phpstorm.sh"
 
-#./install_scripts/sublime.sh
+#bash "`dirname $0`/scripts/sublime.sh"
+
+#bash "`dirname $0`/scripts/docker.sh"
+
+#bash "`dirname $0`/scripts/wallpaper.sh"
+
+#bash "`dirname $0`/scripts/fortuneCow.sh"
 
 #./install_scripts/docker.sh
 

@@ -20,3 +20,5 @@ sudo apt-get install vlc vlc-data browser-plugin-vlc mplayer2
 
 #sudo apt-get install vlc-plugin-pulse
 
+#protected dvd
+sudo apt-get install libdvd-pkg
