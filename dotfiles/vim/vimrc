@@ -1,0 +1,71 @@
+set nocompatible              " be iMproved, required
+
+so ~/.vim/plugins.vim
+
+
+syntax enable
+"set backspace=indent,eol,start			"backspace now behaves like in other editors
+"let mapleader = ','				"changes default mapleader (\) to new one (,)
+
+set number					"activate current line number
+set relativenumber				"show relative line numbers
+set ruler					"shows current line and column in right bottom corner
+
+
+
+"--------------SEARCHING---------------"
+"sets highlight search
+set hlsearch
+"when you type cursor sets on found pattern (incremental search)
+set incsearch
+
+
+"--------------SPLIT MANAGEMENT---------"
+set splitbelow
+set splitright
+
+nmap <C-H> <C-W><C-H>
+nmap <C-J> <C-W><C-J>
+nmap <C-K> <C-W><C-K>
+nmap <C-L> <C-W><C-L>
+
+
+
+
+"--------------VISUALS------------------"
+
+"colorscheme desert
+"colorscheme atom-dark-256
+colorscheme onedark
+set t_CO=256					"use 256 colors (usefull for terminal vim)
+set guifont=Fira_Code:h15			"set font and font hight for gui version"
+set linespace=15				"changes linespacing for gui vim version; change console settings so this work in terminal too.
+set guioptions-=l				"disable left scrollbar"
+set guioptions-=L				"disable left scrollbar when split is present"
+set guioptions-=r				"disable right scrollbar"
+set guioptions-=R				"disable right scrollbar when split is present"
+
+"sets b-g color to transparent
+hi Normal guibg=NONE ctermbg=NONE		
+
+
+"--------------MAPPINGS-----------------"
+"map, imap (for insert mode), nmap etc"
+
+"add shortcut for editing .vimrc file.
+nmap <leader>ev :tabedit $MYVIMRC<cr>
+
+"add simple highlight toogle
+nmap <leader><space> :set hlsearch!<cr>
+"add simple highlight removal
+"nmap <leader><space> :set nohlsearch<cr>
+
+"Nerd tree toogle"
+nmap <leader><BS> :NERDTreeToggle<cr>
+
+"--------------AUTO-COMMANDS------------"
+"auto source .vimrc on save.
+augroup autosourcing
+	autocmd!
+	autocmd BufWritePost vimrc source %
+augroup END
